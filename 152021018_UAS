@@ -2,22 +2,22 @@
 using namespace std;
 
 int main() {
-  // Deklarasi konstanta N untuk jumlah pasangan elemen dari array
-  const int N = 2;
+  // Deklarasi konstanta n untuk jumlah pasangan elemen dari array
+  const int n = 2;
 
-  // Deklarasi array a dan b dengan jumlah elemen sebanyak N
-  int a[n], b[N];
+  // Deklarasi array a dan b dengan jumlah elemen sebanyak n
+  int a[n], b[n];
 
   // Input elemen array a dan b
-  for (int i = 0; i < N; i++) {
+  for (int i = 0; i < n; i++) {
     cout << "Masukkan elemen a[" << i << "]: ";
     cin >> a[i];
     cout << "Masukkan elemen b[" << i << "]: ";
     cin >> b[i];
   }
 
-  // Korelasi antara setiap pasangan elemen array a dan b
-  for (int i = 0; i < N; i++) {
+  // korelasi antara setiap pasangan elemen array a dan b
+  for (int i = 0; i < n; i++) {
     cout << "Korelasi antara a[" << i << "] dan b[" << i << "]: " << a[i] * b[i] << endl;
   }
 
