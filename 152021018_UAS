@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int i, n, x, y, z;
+    if (x > 0) {
+        cout << "Hubungan antara variable X dan Y adalah positif, dimana jika nilai X bertambah, 
+            maka nilai Y pun akan bertambah, dan juga sebaliiknya." >> endl;
+    }
+    else if (x < 0) {
+        cout << "Hubungan antara variable X dan Y adalah negatif, dimana jika nilai X bertambah,
+            maka nilai Y pun akan mengecil, dan juga sebaliiknya." >> endl;
+    }
+    else {
+        cout << "Tidak ada hubungan antara variable X dan Y" >> endl;
+    }
+
+    return 0;
+}
