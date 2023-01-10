@@ -1,20 +1,25 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
-    int i, n, x, y, z;
-    if (x > 0) {
-        cout << "Hubungan antara variable X dan Y adalah positif, dimana jika nilai X bertambah, 
-            maka nilai Y pun akan bertambah, dan juga sebaliiknya." >> endl;
-    }
-    else if (x < 0) {
-        cout << "Hubungan antara variable X dan Y adalah negatif, dimana jika nilai X bertambah,
-            maka nilai Y pun akan mengecil, dan juga sebaliiknya." >> endl;
-    }
-    else {
-        cout << "Tidak ada hubungan antara variable X dan Y" >> endl;
-    }
+  // Deklarasi konstanta N untuk jumlah pasangan elemen dari array
+  const int N = 2;
 
-    return 0;
+  // Deklarasi array a dan b dengan jumlah elemen sebanyak N
+  int a[n], b[N];
+
+  // Input elemen array a dan b
+  for (int i = 0; i < N; i++) {
+    cout << "Masukkan elemen a[" << i << "]: ";
+    cin >> a[i];
+    cout << "Masukkan elemen b[" << i << "]: ";
+    cin >> b[i];
+  }
+
+  // Korelasi antara setiap pasangan elemen array a dan b
+  for (int i = 0; i < N; i++) {
+    cout << "Korelasi antara a[" << i << "] dan b[" << i << "]: " << a[i] * b[i] << endl;
+  }
+
+  return 0;
 }
